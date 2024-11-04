@@ -197,7 +197,7 @@ section {
 }
 
 .section__text__p1 {
-  font-size: 1.75rem;
+  font-size: 17px;
 }
 
 .section__text__p2 {
@@ -281,10 +281,6 @@ section {
   position: relative;
 }
 
-.section__text__p1 {
-  font-size: 25px;
-}
-
 .title {
   font-size: 40px;
 }
@@ -348,8 +344,12 @@ section {
 .experience-sub-title {
   color: rgb(48, 48, 48);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 25px;
   margin-bottom: 2rem;
+}
+
+.experience-sub-title span {
+  color: #9310c7;
 }
 
 .experience-details-container {
@@ -377,3 +377,32 @@ article {
 article .icon {
   cursor: default;
 }
+
+/* PROJETOS */
+
+#projetos {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: #e4e4e4;
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+/* CONTATO */
