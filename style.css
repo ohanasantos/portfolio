@@ -205,7 +205,7 @@ section {
 }
 
 .section__text__p2 span {
-  color: #c123ff;
+  color: #9310c7;
 }
 
 .title {
@@ -273,4 +273,68 @@ section {
 
 .btn-container {
   gap: 1rem;
+}
+
+/* SEÇÃO SOBRE */
+
+#sobre {
+  position: relative;
+}
+
+.section__text__p1 {
+  font-size: 25px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.title span {
+  color: #9310c7;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers, .about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: #e4e4e4;
+  border-radius: 2rem;
+  border: rgb(67, 67, 67) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
