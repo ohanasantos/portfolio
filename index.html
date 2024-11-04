@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ohana Santos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo"><span>S</span>antos</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#experiencias">Experiências</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo"><span>S</span>antos</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#sobre" onclick="toggleMenu()">Sobre</a></li>
+        <li><a href="#experiencias" onclick="toggleMenu()">Experiências</a></li>
+        <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
+        <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
