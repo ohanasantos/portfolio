@@ -4,7 +4,7 @@
 
 ### Meu Portfólio
 
-Este é o repositório do meu portfólio, onde apresento alguns dos meus projetos, habilidades e experiência no desenvolvimento backend. Como desenvolvedora backend, criar este portfólio foi um desafio super legal, pois tive que sair da minha zona de conforto e trabalhar com elementos de frontend, design e usabilidade.
+Este é o repositório do meu portfólio, onde apresento alguns dos meus projetos, habilidades e experiências no desenvolvimento backend. Como desenvolvedora backend, criar este portfólio foi um desafio super legal, já que tive que sair da minha zona de conforto e trabalhar com elementos de frontend, design e usabilidade.
 
 ### Desafios e Aprendizados
 
