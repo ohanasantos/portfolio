@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #e4e4e4;
+  background-color: #fbfbfb;
   font-family: "Poppins", sans-serif;
   color: rgb(0, 0, 0);
 }
@@ -317,10 +317,10 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: #e4e4e4;
+  background: #fbfbfb;
   border-radius: 2rem;
-  border: rgb(67, 67, 67) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: rgb(167, 167, 167) 0.1rem solid;
+  border-color: rgb(167, 167, 167);
   text-align: center;
 }
 
@@ -385,8 +385,8 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: #e4e4e4;
+  border-color: rgb(167, 167, 167);
+  background: #fbfbfb;
 }
 
 .project-img {
@@ -419,8 +419,8 @@ article .icon {
   justify-content: center;
   border-radius: 2rem;
   border: rgb(67, 67, 67) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  background: #e4e4e4;
+  border-color: rgb(167, 167, 167);
+  background: #fbfbfb;
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -454,4 +454,29 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* BARRA DE ROLAGEM */
+
+::-webkit-scrollbar {
+  width: 11px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fbfbfb;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9310c7;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6d0476;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #fbfbfb;
 }
