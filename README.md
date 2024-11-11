@@ -1,6 +1,6 @@
 ![Captura de tela 2024-11-04 041341](https://github.com/user-attachments/assets/2ac3e6d9-35d2-40c0-92d2-150d73488821)
 
-> Status: Portfólio completo e responsivo, aguardando atualização com novos projetos conforme forem realizados. ⚠️
+> Status: Portfólio substituido, accesse já a nova versão! ⚠️
 
 ### Meu Portfólio
 
