@@ -1,6 +1,6 @@
-![Captura de tela 2024-11-04 041341](https://github.com/user-attachments/assets/2ac3e6d9-35d2-40c0-92d2-150d73488821)
+![Captura de tela 2024-11-14 161245](https://github.com/user-attachments/assets/2a3e4fc6-14aa-4b1c-a608-7243595c90a1)
 
-> Status: Nova versão em desenvolvimento ⚠️
+> Status: Refatoração completa do projeto em andamento ⚠️
 
 ### Meu Portfólio
 
