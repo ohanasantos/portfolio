@@ -1,6 +1,6 @@
 ![Captura de tela 2024-11-04 041341](https://github.com/user-attachments/assets/2ac3e6d9-35d2-40c0-92d2-150d73488821)
 
-> Status: Otimizando para Mobile ⚠️
+> Status: Nova versão em desenvolvimento ⚠️
 
 ### Meu Portfólio
 
