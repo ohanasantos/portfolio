@@ -5,223 +5,196 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ohana Santos</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="mediaqueries.css">
-  <link rel="icon" href="assets/logo_tab2.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="icon" href="assets/logo_tab.png">
 </head>
 <body>
-  <nav id="desktop-nav">
-    <div class="logo"><span>S</span>antos</div>
-    <div>
-      <ul class="nav-links">
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#experiencias">Experiências</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </div>
-  </nav>
-  <nav id="hamburger-nav">
-    <div class="logo"><span>S</span>antos</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu-links">
-        <li><a href="#sobre" onclick="toggleMenu()">Sobre</a></li>
-        <li><a href="#experiencias" onclick="toggleMenu()">Experiências</a></li>
-        <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
-        <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
-      </div>
-    </div>
-  </nav>
-  <section id="profile">
-    <div class="section__text">
-      <p class="section__text__p1">Olá, eu sou</p>
-      <h1 class="title1">Ohana Santos</h1>
-      <p class="section__text__p2">Desenvolvedora <span>Backend</span></p>
-      <div class="btn-container">
-        <button class="btn btn-color-2" onclick="location.href='./#projetos'">Meu Trabalho</button>
-        <button class="btn btn-color-1" onclick="location.href='./#contato' ">Contato</button>
-      </div>
-      <div id="socials-container">
-        <img src="./assets/linkedin.png" alt="Meu Perfil no Linkedin" class="icon">
-        <img src="./assets/github.png" alt="Meu Perfil no Github" class="icon" onclick="window.open('https://github.com/ohanasantos', '_blank')">
-      </div>
-    </div>
-  </section>
-  <section id="sobre">
-    <p class="section__text__p1">Conheça Mais</p>
-    <h1 class="title">Sobre <span>Mim</span></h1>
-    <div class="section-container">
-      <div class="section__pic-container">
-        <img src="assets/about-pic.JPEG" alt="Foto de Perfil" class="about-pic">
-      </div>
-      <div class="about-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <img src="assets/experience.png" alt="Icone Experiência" class="icon">
-            <h3>Experiência</h3>
-            <p>Adquirindo <br>Desenvolvimento Backend</p>
+
+  <div id="inicio"></div>
+  
+  <header class="header">
+    <img class="logo" src="assets/logo_tab.png" alt="logo-top">
+    <ul class="nav-links">
+      <li>
+        <a href="#inicio">Home</a>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#skills">Skills</a>
+        <a href="#experiencias">Carreira</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <button class="visit-btn" onclick="window.open('https://github.com/ohanasantos', '_blank')">
+          <i class="fa-brands fa-github"></i>
+      </button>           
+      </a>      
+      </li>
+    </ul>
+  </header>
+
+  <section id="about" class="about">
+    <div class="about-container">
+      <div class="info-box">
+        <div class="text">
+          <h3>👋 Saudações</h3>
+          <h1>Ohana Santos</h1>
+          <span>Backend Developer</span>
+
+          <div class="btn-group">
+            <a class="btn" href="mailto:ohanacorreia7@hotmail.com">Fale comigo  </a>
+            <a class="btn" href="#projetos">Meus Projetos</a>
           </div>
-          <div class="details-container">
-            <img src="assets/education.png" alt="Icone Educação" class="icon">
-            <h3>Educação</h3>
-            <p>Faculdade Impacta de Tecnologia <br>Análise e Desenvolvimento de Sistemas</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="separator_1">
+
+  <section id="sobre" class="section-with-border">
+    <h3 class="section-title">🧐 Sobre Mim</h3>
+    <h2 class="section-title-name">Ohana F. Santos</h2>
+    <p class="about-me-p">👋 Oii, pode me chamar de Ohana (sim, significa fámilia hahaha)</p>
+    <p class="about-me-p">👨‍💻 Estou aprendendo Java, MySQL e quase tudo sobre o framework ágil Scrum no momento.</p>
+    <p class="about-me-p">🎓 Graduanda em Análise e Desenvolvimento de Sistemas pela Faculdade Impacta de Tecnologia!</p>
+    <p class="about-me-p">💡 Interesses em desenvolvimento Backend com Java, Spring Boot, Spring Cloud, MySQL e etc</p>
+    <p class="about-me-p">🚀 A cada dia que passa, somos melhores do que ontem!</p>
+
+    <div class="social-links-sm">
+      <a href="https://www.linkedin.com/in/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/ohanasantos" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.instagram.com/ohanacorreia/" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+  </section>
+
+  <hr class="separator_1">
+
+  <section id="projetos" class="projetos">
+    <h3 class="section-title-2">💡 Projetos</h3>
+    <h2 class="section-title-projects">Meus Projetos Recentes</h2>
+
+    <div class="projects-grid">
+      
+        <div class="project-card" onclick="window.open('https://projeto-aqui', '_blank')">
+          <h3>Projeto W</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis nulla sit amet nisi efficitur, vel ultricies risus sagittis.</p>
+          <div class="status-and-skills">
+            <span class="project-status">Online</span>
+            <span class="project-skills">Java</span>
           </div>
+          <img src="assets/project.gif" alt="projeto_1">
         </div>
-        <div class="text-container">
-          <p>Olá, me chamo Ohana, sou estudante, apaixonada por tattoos e mãe de uma pitbull chamada Ayla. Possuo afinidade com tecnologias utilizadas em frontend, para a criação de paginas modernas e interativas, otimizadas e fluidas para um excelente desempenho em quaisquer dispositivos. Além do conhecimento nas principais tecnologias utilizadas em backend, criando soluções no lado do servidor. Utilizo abordagens de Programação Orientada a Objetos (POO) e arquitetura limpa para criar APIs eficientes e escaláveis, além da criação de pipelines para configurar serviços, pods, deployments e gateways. Atuo na implementação e manutenção de ambientes de desenvolvimento</p>
+      <div class="project-card" onclick="window.open('https://projeto-aqui', '_blank')">
+        <h3>Projeto X</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis nulla sit amet nisi efficitur, vel ultricies risus sagittis.</p>
+        <div class="status-and-skills">
+          <span class="project-skills">Java</span>
         </div>
+        <img src="assets/project.gif" alt="projeto_2">
+      </div>
+      <div class="project-card" onclick="window.open('https://projeto-aqui', '_blank')">
+        <h3>Projeto Y</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis nulla sit amet nisi efficitur, vel ultricies risus sagittis.</p>
+        <div class="status-and-skills">
+          <span class="project-skills">Java</span>
+        </div>
+        <img src="assets/project.gif" alt="projeto_3">
+    </div>    
+      <div class="project-card" onclick="window.open('https://projeto-aqui', '_blank')">
+        <h3>Projeto Z</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis nulla sit amet nisi efficitur, vel ultricies risus sagittis.</p>
+        <div class="status-and-skills">
+          <span class="project-skills">Java</span>
+        </div>
+        <img src="assets/project.gif" alt="projeto_4">
+    </div>    
+    </div>
+
+    <div class="container">
+      <a href="https://github.com/ohanasantos " class="github-button" target="_blank">
+        <span class="github-icon"><img src="assets/green-github.svg" alt="green-github"></span>
+        Ver mais em meu Github
+        <span class="arrow-icon">→</span>
+      </a>
+    </div>    
+
+  </section>
+
+  <section id="skills" class="skills">
+    <h3 class="section-title-3">🧑‍💻 Skills</h3>
+    <h2 class="section-title-projects">Tecnologias e Habilidades</h2>
+
+    <h3 class="section-title-subtitle">No Dia a Dia</h3>
+    <div class="tecnologias">
+      <div class="icons-tecnologias">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+        <img src="assets/github-icon.svg" alt="github-icon">
       </div>
     </div>
-    <img src="assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experiencias'">
-  </section>
-  <section id="experiencias">
-    <p class="section__text__p1">Explorar Minhas</p>
-    <h1 class="title">Experiências</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Desenvolvimento <span>Frontend</span></h2>
-          <div class="article-container">
-            <article>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" alt="HTML icon" class="icon"/>
-            <div>
-              <h3>HTML5</h3>
-              <p>Intermediário</p>
-            </div>
-            </article>
-            <article>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" alt="CSS icon" class="icon"/>
-            <div>
-              <h3>CSS3</h3>
-              <p>Intermediário</p>
-            </div>
-            </article>
-            <article>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JS icon" class="icon"/>
-            <div>
-              <h3>JavaScript</h3>
-              <p>Básico</p>
-            </div>
-            </article>
-          </div>
-        </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Desenvolvimento <span>Backend</span></h2>
-          <div class="article-container">
-            <article>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="JAVA icon" class="icon"/>
-            <div>
-              <h3>Java</h3>
-              <p>Básico</p>
-            </div>
-            </article>
-            <article>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="PYTHON icon" class="icon"/>
-            <div>
-              <h3>Python</h3>
-              <p>Básico</p>
-            </div>
-            </article>
-            <article>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MYSQL icon" class="icon"/>
-            <div>
-              <h3>MySQL</h3>
-              <p>Básico</p>
-            </div>
-            </article>
-          </div>
-        </div>
+
+    <h3 class="section-title-subtitle_2">Em Demais Projetos</h3>
+    <div class="tecnologias">
+      <div class="icons-tecnologias">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
       </div>
     </div>
-    <img src="assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projetos'">
+
   </section>
-  <section id="projetos">
-    <p class="section__text__p1">Navegue em Meus Recentes</p>
-    <h1 class="title">Projetos</h1>
-      <div class="about-containers">
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img src="assets/project.gif" alt="projeto 1" class="project-img">
+
+  <section id="experiencias" class="carreira">
+    <h3 class="section-title-4">💼 Carreira</h3>
+    <h2 class="section-title-carreira">Minha Tragetória</h2>
+
+    <div class="exp-container">
+      <div class="exp-section">
+        <h2>Profissional</h2>
+        <p class="status">2020 · Atualmente</p>
+        <div class="card">
+          <h3>Confidencial | Analista Nível IV</h3>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus error dolorum neque numquam laudantium.</span>
+          <div class="tags"></div>
+          <p class="date">Out/2024 - Atualmente</p>
         </div>
-        <h2 class="experience-sub-title project-title">Projeto Um</h2>
-        <div class="btn-container">
-          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/ohanasantos', '_blank')">
-            Github
-          </button>
-          <!-- Caso queira adicionar um live preview do projeto adicione um botão com direcionamento direto
-          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/ohanasantos', '_blank')">
-            Github
-          </button>
-          -->
-        </div>
-      </div>
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img src="assets/project-2.gif" alt="projeto 2" class="project-img">
-        </div>
-        <h2 class="experience-sub-title project-title">Projeto Dois</h2>
-        <div class="btn-container">
-          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/ohanasantos', '_blank')">
-            Github
-          </button>
-          <!-- Caso queira adicionar um live preview do projeto adicione um botão com direcionamento direto
-          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/ohanasantos', '_blank')">
-            Github
-          </button>
-          -->
+        <div class="card-tipe2">
+          <h3>Concentrix | Technical Support L3</h3>
+          <span>Suporte aos produtos da Midea Carrier, resolvendo problemas e dificuldades de uso físico ou de software dos produtos junto ao usuário, por meio da plataforma Reclame Aqui.</span>
+          <div class="tags"></div>
+          <p class="date">Out/2023 - Out/2024</p>
         </div>
       </div>
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img src="assets/project-3.gif" alt="projeto 3" class="project-img">
+      
+      <div class="exp-section">
+        <h2>Acadêmica</h2>
+        <p class="status">2023 · Atualmente</p>
+        <div class="card">
+          <h3>Superior | Análise e Desenvolvimento de Sistemas</h3>
+          <span>Graduanda pela Faculdade Impacta de Tecnologia de São Paulo no curso de Análise e Desenvolvimento de Sistemas.</span>
+          <p class="date">Outubro/2024 · Previsão: Julho/2027</p>
         </div>
-        <h2 class="experience-sub-title project-title">Projeto Três</h2>
-        <div class="btn-container">
-          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/ohanasantos', '_blank')">
-            Github
-          </button>
-          <!-- Caso queira adicionar um live preview do projeto adicione um botão com direcionamento direto
-          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/ohanasantos', '_blank')">
-            Github
-          </button>
-          -->
+        <div class="card-tipe2">
+          <h3>Superior | Engenharia de Software</h3>
+          <span>Graduação interrompida (curso trancado), faculdade Unicesumar</span>
+          <div class="tags"></div>
+          <p class="date">Set/2023 - Jan/2024</p>
         </div>
       </div>
-    </div>
-    <img src="assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#contato'">
+    </div>    
+    
   </section>
-  <section id="contato">
-    <p class="section__text__p1">Entre em Contato</p>
-    <h1 class="title">Comigo</h1>
-    <div class="contact-info-upper-container">
-      <div class="contact-info-container">
-        <img src="assets/email.png" alt="icone email" class="icon contact-icon email-icon">
-        <p><a href="mailto:ohanacorreia7@hotmail.com">Envie um Email</a></p>
-      </div>
-    <div class="contact-info-container">
-      <div class="contact-info-container">
-        <img src="assets/linkedin.png" alt="icone linkedin" class="icon contact-icon">
-        <p><a href="###">Linkedin</a></p>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <nav>
-      <div class="nav-links-container">
-       <ul class="nav-links">
-         <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#experiencias">Experiências</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-         <li><a href="#contato">Contato</a></li>
-       </ul>
-      </div>
-    </nav>
-    <p>Copyright © 2024 by Ohana Santos. All rights reserved.</p>
-  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
