@@ -1,6 +1,6 @@
 ![Captura de tela 2024-11-14 161245](https://github.com/user-attachments/assets/2a3e4fc6-14aa-4b1c-a608-7243595c90a1)
 
-> Status: Refatoração completa do projeto em andamento ⚠️
+> Status: Em Desenvolvimento 🚀
 
 ### Meu Portfólio
 
@@ -12,10 +12,10 @@ Desenvolver este portfólio me permitiu explorar novas ferramentas e práticas d
 
 ### Tecnologias Utilizadas
 
-- HTML, CSS e JavaScript
+- HTML e CSS
 
 ### Estrutura do Projeto
 
-Organizei meu portfólio em seções que mostram minha formação, habilidades, projetos e formas de contato. A interface foi pensada para ser simples e responsiva (eestou trabalhando na otimização para dispositivos mobile).
+Organizei meu portfólio em seções que mostram um pouco sobre mim, projetos, minhas skills, sobre minha carreira e as principais formas de me contatar. A interface foi pensada para ser simples e responsiva, pois quero manter o foco total em meus projetos pessoais em backend.
 
 Este projeto representa uma pequena parte de toda a minha curiosidade e aprimoramento como uma desenvolvedora backend, integrando agora um pouco mais de frontend em algo que sejamos sinceros, ficou bem bonito!
