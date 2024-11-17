@@ -8,7 +8,7 @@ Este é o repositório do meu portfólio, onde apresento alguns dos meus projeto
 
 ### Desafios e Aprendizados
 
-Desenvolver este portfólio me permitiu explorar novas ferramentas e práticas de front, como HTML, CSS e um pouco de JavaScript, para criar uma interface funcional e visualmente agradável. Esse processo ampliou minha visão sobre esse outro lado do desenvolvimento e me ajudou a entender melhor como a parte visual impacta fortemente a experiência do usuário.
+Desenvolver este portfólio me permitiu explorar novas ferramentas e práticas de front, como HTML e CSS, para criar uma interface funcional e visualmente agradável. Esse processo ampliou minha visão sobre esse outro lado do desenvolvimento e me ajudou a entender melhor como a parte visual impacta fortemente a experiência do usuário.
 
 ### Tecnologias Utilizadas
 
