@@ -1,6 +1,7 @@
 ![Captura de tela 2024-11-14 161245](https://github.com/user-attachments/assets/2a3e4fc6-14aa-4b1c-a608-7243595c90a1)
 
-> Status: Em Desenvolvimento 🚀
+> Status: Concluído ✅<br>
+O portfólio foi finalizado e está no ar. Sinta-se à vontade para explorar e conferir meus projetos!
 
 ### Meu Portfólio
 
