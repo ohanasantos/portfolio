@@ -50,22 +50,12 @@ li a {
   color: #9b9ca4;
   font-weight: 100;
   margin-right: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-li a::before {
-  position: absolute;
-  content: '';
-  width: 0;
-  left: 0;
-  height: 3px;
-  top: 24px;
-  border-radius: 2rem;
-  transition: 0.3s ease-in-out;
-  background: linear-gradient(to right, #8a5ab6, #290576);
-}
-
-li a:hover::before {
-  width: 100%;
+li a:hover {
+  color: #783bb1;
 }
 
 .fa-solid {
@@ -100,13 +90,8 @@ li a:hover::before {
 }
 
 .visit-btn:hover {
-  background: linear-gradient(to right, #290576, #8a5ab6);
+  transform: scale(1.1);
 }
-
-.visit-btn:hover i {
-  color: #7b4ae2;
-}
-
 
 #menu-icon {
   font-size: 2rem;
@@ -409,8 +394,8 @@ section {
 }
 
 .icons-tecnologias img {
-  width: 50px;
-  height: 50px;
+  width: 52px;
+  height: 52px;
   object-fit: contain;
   margin: 0 0.5rem;
 }
